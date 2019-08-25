@@ -10,6 +10,8 @@ const scrap = async() => {
 
 	await page.goto(targets[0], {waitUntil: 'networkidle2'});
 	await page.screenshot({path: 'screenshot.png'});
+
+	/* await page.click(); */
 }
 
 const main = async () => {
